@@ -48,7 +48,7 @@ freedom to the galaxy....''';
 
     _animationController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 10),
+      duration: const Duration(seconds: 90),
     )..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
           setState(() {
